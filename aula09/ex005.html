@@ -18,16 +18,21 @@
     <p>Aqui vai o resultado</p>
     <p>Aprendendo a usar <strong>DOM</strong> em Javascript</p>
     <div class="msg">Clique em mim</div>
+    <input type="text" value="teste de texto">
     <script>
         var p1 = window.document.getElementsByTagName('p')[0] // var se torna um objeto
         window.document.write(p1.innerText+'<br>') //só pega o texto
         window.document.write(p1.innerHTML+'<br>') //pega o texto e tags 
-        document.write(p1.innerHTML+'<br>') // redução de código é muito bom 
+        document.write(p1.innerHTML+'<br>') // redução de código é muito bom e funciona do mesmo jeito
         /*var d = document.getElementById('msg')
         document.write(d.innerText)*/
         var d = document.querySelector('div.msg') // para id = #; class = . ;
-        document.write(d.innerText)/*mais pratico em alterações rápidas,mas pode não
+        document.write(d.innerText+'<br>')/*mais pratico em alterações rápidas,mas pode não
         compativel com alguns navegadores po causa da versão*/
+
+        var inp = document.querySelector('input')
+        document.write(inp.value)
+        
     </script>
     
 </body>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções em Javascript</title>
+    <style>
+        div{
+            background-color: rgb(171, 143, 221);
+            color: rgb(255, 255, 255);
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            font-size: 20px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <div id="it" onclick="clicou()" onmouseenter="entrou()" onmouseout="saiu()">
+        Interação...
+    </div>
+    <script>
+        var d = document.getElementById('it')
+        /* você pode usar o próprio Javascript para 
+        controlar os eventos de interação
+        d.addEventListener('click', clicou)
+        d.addEventListener('mouseenter', entrou)
+        d.addEventListener('mouseout', saiu)*/
+        function clicou(){
+            d.innerText = 'Clicou!'
+            d.style.background = 'rgb(200, 126, 194)'
+        }
+        function entrou(){
+            d.innerText='Entrou..'
+        }
+        function saiu(){
+            d.innerText = 'Saiu..'
+            d.style.background = 'rgb(171, 143, 221)'
+        }
+    </script>
+</body>
+</html>
