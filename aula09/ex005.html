@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos em DOM</title>
+    <style>
+        body{
+            font-family: monospace;
+            background-color: #97b821;
+            color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciandos os Estudos em DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar <strong>DOM</strong> em Javascript</p>
+    <div class="msg">Clique em mim</div>
+    <script>
+        var p1 = window.document.getElementsByTagName('p')[0] // var se torna um objeto
+        window.document.write(p1.innerText+'<br>') //só pega o texto
+        window.document.write(p1.innerHTML+'<br>') //pega o texto e tags 
+        document.write(p1.innerHTML+'<br>') // redução de código é muito bom 
+        /*var d = document.getElementById('msg')
+        document.write(d.innerText)*/
+        var d = document.querySelector('div.msg') // para id = #; class = . ;
+        document.write(d.innerText)/*mais pratico em alterações rápidas,mas pode não
+        compativel com alguns navegadores po causa da versão*/
+    </script>
+    
+</body>
+</html>
