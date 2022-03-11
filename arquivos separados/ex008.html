@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando valores</title>
+    <style>
+        body{
+            font-family: monospace;
+        }
+        h1{
+            color: rgb(230, 114, 19);
+        }
+        input{
+            font-family: monospace;
+        }
+        input#bnt{
+            background-color: rgb(230, 114, 19);
+            color: rgb(255, 255, 255);
+        }
+        p#res{
+            font-size: 17px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Somando valores</h1>
+    <input type="number" name="txtn1" id="txtn1"> +
+    <input type="number" name="txtn2" id="txtn2">
+    <input type="button" id="bnt" value="Somar" onclick="somar()">
+    <p id="res">Resultado aqui...</p>
+    <script src="script.js"></script>
+</body>
+</html>
