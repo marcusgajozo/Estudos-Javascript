@@ -1,3 +1,4 @@
+/* testando o Javascript em arquivo separado */
 var num = document.getElementById('txtn1')
 //var num2 = document.getElementById('txtn2')
 //tem como fazer de outro jeito
