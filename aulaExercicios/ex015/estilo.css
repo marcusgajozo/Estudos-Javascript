@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(124, 177, 26);
+    font-family: monospace;
+    font-size: 15px;
+}
+
+header{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+section{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.336);
+}
+
+div{
+    text-align: center;
+    padding: 10px;
+}
+
+p{
+    font-size: 18px;
+    margin: 7px;
+}
+
+input{
+    font-family: monospace;
+    font-size: 18px;
+}
+
+button{
+    margin-top: 8px;
+    background-color: rgb(91, 129, 21);
+    font-family: monospace;
+    color: white;
+    border: 0;
+    padding: 5px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.322);
+}
+
+div#res{
+    font-size: 17px;
+}
+
+img{
+    margin-top: 20px;
+    width: 200px;
+}
+
+footer{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-style: italic;
+}
