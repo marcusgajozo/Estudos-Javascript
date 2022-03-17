@@ -13,9 +13,9 @@ function calcularIdade(){
     } else {
         idadeAtual = anoAtual - anoNascimento
         if (sexoSelecionado[0].checked == true){
-            divResultado.innerHTML = `<strong>Detectamos um homem que atualmente tem ${idadeAtual}.<br>Bem-vindo ao nosso site!</strong>`
+            divResultado.innerHTML = `<strong>Detectamos um homem que atualmente tem ${idadeAtual} anos.<br>Bem-vindo ao nosso site!</strong>`
         } else {
-            divResultado.innerHTML = `<strong>Detectamos uma mulher que atualmente tem ${idadeAtual}.<br>Bem-vinda ao nosso site!</strong>`
+            divResultado.innerHTML = `<strong>Detectamos uma mulher que atualmente tem ${idadeAtual} anos.<br>Bem-vinda ao nosso site!</strong>`
         }
         
     }
