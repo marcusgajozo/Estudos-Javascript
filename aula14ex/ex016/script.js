@@ -15,16 +15,18 @@ function contar(){
         if(numberIni <= numberFin){
             //contagem crescente 
             while(numberIni <= numberFin){
-                resultado.innerHTML += `<strong> ${numberIni} &#128004</strong>`
+                resultado.innerHTML += `<strong> ${numberIni} \u{1F449}</strong>`
                 numberIni += numberPas
             } 
         } else {
             //contagem regressiva
             while(numberIni >= numberFin){
-                resultado.innerHTML += `<strong> ${numberIni} &#128004</strong>`
+                resultado.innerHTML += `<strong> ${numberIni} \u{1F449}</strong>`
                 numberIni -= numberPas
             } 
         }
+
+        resultado.innerHTML += ` \u{1F92F}.`
         
     }
     
