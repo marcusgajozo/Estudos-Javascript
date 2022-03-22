@@ -4,12 +4,14 @@ function tabuada(){
     if (num == ''){
         alert('Por favor, digite um número!')
     }else{
+        tab.innerHTML = ''
         num = Number(num);
         for(let i = 0; i <= 10; i++){
-            console.log(`${num}x${i} = ${num*i}`)
+            //criando elemento em javascript
+            let item = document.createElement('option')
+            item.text = `${num}x${i} = ${num*i}`
+            item.value = `tab${i}`
+            tab.appendChild(item)
         }
     }
-    
-
-
 }
