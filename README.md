@@ -10,3 +10,9 @@ Assuntos abordados:
 * Estrutura de Repetição
 * Arrays
 * Funções
+
+### Certificado do Curso: 
+
+./certificado-cursoemvideo/certificado.pdf
+
+<img src="https://user-images.githubusercontent.com/28554097/235773792-86777839-4df0-40e0-828c-15322dad4730.png" alt="Certificado do curso em video javascript" width="500px"/>
